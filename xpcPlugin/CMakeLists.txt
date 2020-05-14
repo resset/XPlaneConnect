@@ -16,6 +16,7 @@ SET(XPC_OUTPUT_DIR "XPlaneConnect")
 SET(XPC_OUTPUT_NAME "lin")
 
 add_library(xpc64 SHARED XPCPlugin.cpp
+	CameraCallbacks.cpp
 	DataManager.cpp
 	Drawing.cpp
 	Log.cpp
